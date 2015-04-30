@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+    <resource id="1">
+        <category>Java</category>
+        <title>10 Object Oriented Design Principles Java Programmer should know</title>
+        <author>Javin Paul</author>
+        <url>http://javarevisited.blogspot.sg/2012/03/10-object-oriented-design-principles.html</url>
+        <date>03.03.2012</date>
+    </resource>
+    <resource id="2">
+        <category>Ubuntu</category>
+        <title>Ubuntu 15.04 Vivid Vervet Alpha 2 release date, features and where to download it</title>
+        <author>Jim Martin</author>
+        <url>http://www.pcadvisor.co.uk/news/linux/3595340/ubuntu-1504-vivid-vervet-alpha-2/</url>
+        <date>23.01.2015</date>
+    </resource>
+    <resource id="3">
+        <category>Algorithms</category>
+        <title>How Algorithms Changed The World</title>
+        <author>Mike James</author>
+        <url>http://www.i-programmer.info/news/181-algorithms/5387-how-algorithms-changed-the-world.html</url>
+        <date>26.01.2013</date>
+    </resource>
+    <resource id="4">
+        <category>Android</category>
+        <title>Intel's 64-bit Android</title>
+        <author>Mike James</author>
+        <url>http://www.i-programmer.info/news/193-android/6833-intels-64-bit-android.html</url>
+        <date>13.01.2014</date>
+    </resource>
+    <resource id="5">
+        <category>Computer graphics</category>
+        <title>3D computer graphics</title>
+        <author>unknown</author>
+        <url>http://www.sciencedaily.com/articles/0/3d_computer_graphics.html</url>
+        <date>18.02.2010</date>
+    </resource>
+    <resource id="6">
+        <category>GitHub</category>
+        <title>A beginner's guide to GitHub</title>
+        <author>Aleksandar Todorovic</author>
+        <url>https://opensource.com/life/15/2/beginners-guide-github</url>
+        <date>16.02.2015</date>
+    </resource>
+    <resource id="7">
+        <category>Python</category>
+        <title>Asynchronous Python and Databases</title>
+        <author>Mike Bayer</author>
+        <url>http://techspot.zzzeek.org/2015/02/15/asynchronous-python-and-databases/</url>
+        <date>15.02.2015</date>
+    </resource>
+    <resource id="8">
+        <category>Node.js</category>
+        <title>Node.js Flow (part 1) - Callback Hell vs. Async vs. Highland</title>
+        <author>Eirik Vullum</author>
+        <url>http://blog.vullum.io/javascript-flow-callback-hell-vs-async-vs-highland/</url>
+        <date>04.01.2015</date>
+    </resource>
+    <resource id="9">
+        <category>JavaScript</category>
+        <title>Is JavaScript the Future of Programming?</title>
+        <author>Dani Fankhauser</author>
+        <url>http://mashable.com/2012/11/12/javascript/</url>
+        <date>12.11.2012</date>
+    </resource>
+    <resource id="10">
+        <category>SQL</category>
+        <title>10 SQL Articles Everyone Must Read</title>
+        <author>Jo Oq</author>
+        <url>http://blog.jooq.org/2015/02/13/10-sql-articles-everyone-must-read/</url>
+        <date>13.02.2015</date>
+    </resource>
+    <resource id="11">
+        <category>GitHub</category>
+        <title>25 New Script Libraries and Plugins on GitHub</title>
+        <author>Grace Smith</author>
+        <url>http://mashable.com/2013/06/09/github-script-libraries/</url>
+        <date>10.06.2013</date>
+    </resource>
+    <resource id="12">
+        <category>.NET</category>
+        <title>Microsoft Open Sources .NET?</title>
+        <author>Mike James</author>
+        <url>http://www.i-programmer.info/news/89-net/7971-microsoft-open-sources-net-.html</url>
+        <date>13.11.2014</date>
+    </resource>
+    <resource id="13">
+        <category>iOS</category>
+        <title>INTRODUCING TLANIMATEDSEGUE, AN OPEN SOURCE IOS STORYBOARD SEGUE</title>
+        <author>Bruno Berisso</author>
+        <url>http://blog.tryolabs.com/2015/02/11/introducing-tlanimatedsegue-an-open-source-ios-storyboard-segue/</url>
+        <date>11.02.2015</date>
+    </resource>
+    <resource id="14">
+        <category>.NET</category>
+        <title>Building and Running .NET’s CoreCLR on OS X</title>
+        <author>Frank A. Krueger</author>
+        <url>http://praeclarum.org/post/110552954728/building-and-running-nets-coreclr-on-os-x</url>
+        <date>09.02.2015</date>
+    </resource>
+    <resource id="15">
+        <category>R</category>
+        <title>Programming tools: Adventures with R</title>
+        <author>Sylvia Tippmann</author>
+        <url>http://www.nature.com/news/programming-tools-adventures-with-r-1.16609</url>
+        <date>29.12.2014</date>
+    </resource>
+    <resource id="16">
+        <category>Excel</category>
+        <title>Excel programming for nonprogrammers</title>
+        <author>Larry Hardesty</author>
+        <url>http://newsoffice.mit.edu/2012/excel-programming-for-nonprogrammers-0508</url>
+        <date>08.03.2012</date>
+    </resource>
+</resources>
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="resources" type="resourcesType"/>
+  <xs:complexType name="resourcesType">
+    <xs:sequence>
+      <xs:element type="resourceType" name="resource" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="resourceType">
+    <xs:sequence>
+      <xs:element name="category">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Java"/>
+            <xs:enumeration value="Ubuntu"/>
+            <xs:enumeration value="Algorithms"/>
+            <xs:enumeration value="Android"/>
+            <xs:enumeration value="Computer graphics"/>
+            <xs:enumeration value="GitHub"/>
+            <xs:enumeration value="Python"/>
+            <xs:enumeration value="Node.js"/>
+            <xs:enumeration value="JavaScript"/>
+            <xs:enumeration value="SQL"/>
+            <xs:enumeration value=".NET"/>
+            <xs:enumeration value="iOS"/>
+            <xs:enumeration value="R"/>
+            <xs:enumeration value="Excel"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="title">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="10 Object Oriented Design Principles Java Programmer should know"/>
+            <xs:enumeration value="Ubuntu 15.04 Vivid Vervet Alpha 2 release date, features and where to download it"/>
+            <xs:enumeration value="How Algorithms Changed The World"/>
+            <xs:enumeration value="Intel's 64-bit Android"/>
+            <xs:enumeration value="3D computer graphics"/>
+            <xs:enumeration value="A beginner's guide to GitHub"/>
+            <xs:enumeration value="Asynchronous Python and Databases"/>
+            <xs:enumeration value="Node.js Flow (part 1) - Callback Hell vs. Async vs. Highland"/>
+            <xs:enumeration value="Is JavaScript the Future of Programming?"/>
+            <xs:enumeration value="10 SQL Articles Everyone Must Read"/>
+            <xs:enumeration value="25 New Script Libraries and Plugins on GitHub"/>
+            <xs:enumeration value="Microsoft Open Sources .NET?"/>
+            <xs:enumeration value="INTRODUCING TLANIMATEDSEGUE, AN OPEN SOURCE IOS STORYBOARD SEGUE"/>
+            <xs:enumeration value="Building and Running .NET’s CoreCLR on OS X"/>
+            <xs:enumeration value="Programming tools: Adventures with R"/>
+            <xs:enumeration value="Excel programming for nonprogrammers"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="author">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Javin Paul"/>
+            <xs:enumeration value="Jim Martin"/>
+            <xs:enumeration value="Mike James"/>
+            <xs:enumeration value="unknown"/>
+            <xs:enumeration value="Aleksandar Todorovic"/>
+            <xs:enumeration value="Mike Bayer"/>
+            <xs:enumeration value="Eirik Vullum"/>
+            <xs:enumeration value="Dani Fankhauser"/>
+            <xs:enumeration value="Jo Oq"/>
+            <xs:enumeration value="Grace Smith"/>
+            <xs:enumeration value="Bruno Berisso"/>
+            <xs:enumeration value="Frank A. Krueger"/>
+            <xs:enumeration value="Sylvia Tippmann"/>
+            <xs:enumeration value="Larry Hardesty"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="url">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="http://javarevisited.blogspot.sg/2012/03/10-object-oriented-design-principles.html"/>
+            <xs:enumeration value="http://www.pcadvisor.co.uk/news/linux/3595340/ubuntu-1504-vivid-vervet-alpha-2/"/>
+            <xs:enumeration value="http://www.i-programmer.info/news/181-algorithms/5387-how-algorithms-changed-the-world.html"/>
+            <xs:enumeration value="http://www.i-programmer.info/news/193-android/6833-intels-64-bit-android.html"/>
+            <xs:enumeration value="http://www.sciencedaily.com/articles/0/3d_computer_graphics.html"/>
+            <xs:enumeration value="https://opensource.com/life/15/2/beginners-guide-github"/>
+            <xs:enumeration value="http://techspot.zzzeek.org/2015/02/15/asynchronous-python-and-databases/"/>
+            <xs:enumeration value="http://blog.vullum.io/javascript-flow-callback-hell-vs-async-vs-highland/"/>
+            <xs:enumeration value="http://mashable.com/2012/11/12/javascript/"/>
+            <xs:enumeration value="http://blog.jooq.org/2015/02/13/10-sql-articles-everyone-must-read/"/>
+            <xs:enumeration value="http://mashable.com/2013/06/09/github-script-libraries/"/>
+            <xs:enumeration value="http://www.i-programmer.info/news/89-net/7971-microsoft-open-sources-net-.html"/>
+            <xs:enumeration value="http://blog.tryolabs.com/2015/02/11/introducing-tlanimatedsegue-an-open-source-ios-storyboard-segue/"/>
+            <xs:enumeration value="http://praeclarum.org/post/110552954728/building-and-running-nets-coreclr-on-os-x"/>
+            <xs:enumeration value="http://www.nature.com/news/programming-tools-adventures-with-r-1.16609"/>
+            <xs:enumeration value="http://newsoffice.mit.edu/2012/excel-programming-for-nonprogrammers-0508"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="date">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="03.03.2012"/>
+            <xs:enumeration value="23.01.2015"/>
+            <xs:enumeration value="26.01.2013"/>
+            <xs:enumeration value="13.01.2014"/>
+            <xs:enumeration value="18.02.2010"/>
+            <xs:enumeration value="16.02.2015"/>
+            <xs:enumeration value="15.02.2015"/>
+            <xs:enumeration value="04.01.2015"/>
+            <xs:enumeration value="12.11.2012"/>
+            <xs:enumeration value="13.02.2015"/>
+            <xs:enumeration value="10.06.2013"/>
+            <xs:enumeration value="13.11.2014"/>
+            <xs:enumeration value="11.02.2015"/>
+            <xs:enumeration value="09.02.2015"/>
+            <xs:enumeration value="29.12.2014"/>
+            <xs:enumeration value="08.03.2012"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+  </xs:complexType>
+</xs:schema>
